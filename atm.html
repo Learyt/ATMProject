@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ATM, get your cash here</title>
+</head>
+<body>
+    <h1>IWAYMB (I Want All Your Money Bank) ATM services</h1>
+    <p><strong>Enter the ammount of money you need</strong> 
+        <br><br>
+        <input type="text" size="3" id="ammountRequired">
+        <input type="button" value="Withdraw" id="ammountEntered">
+    </p>
+    <p>
+        <img src="images/cajero.gif" alt="The ATM has been robbed">
+    </p>
+    <p id="ammountGiven"></p>
+    <p id="ammountATM"></p>
+    <p>
+        <strong>Deposit money in the ATM</strong><br>
+        Ammount of 50 notes <input type="number" size="3" id="atm50Ammount"><br>
+        Ammount of 20 notes <input type="number" size="3" id="atm20Ammount"><br>
+        Ammount of 10 notes <input type="number" size="3" id="atm10Ammount"><br>
+        <input type="button" value="Refresh ATM cash" id="newATMinput">
+    </p>
+    <script src="scripts/atm.js"></script>
+</body>
+</html>
